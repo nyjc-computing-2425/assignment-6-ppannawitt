@@ -5,7 +5,10 @@ import time
 # Part 1
 def clock(n):
   """
-  clock
+  clock return time
+
+  the first number
+  n -> int
   """
   prev = ""
   while (n>0):
@@ -23,7 +26,9 @@ def clock(n):
 # Part 2
 def lcm(a, b):
   """
-  lcm
+  lcm return lowerest common multiple of a, b
+  the first number a -> int
+  the second number b -> int
   """
   #return a*b//gcd(a,b)
   original_a = a
@@ -41,7 +46,9 @@ def lcm(a, b):
 # Part 3
 def gcf(a, b):
   """
-  gcf
+  gcf return greatest common factor of a, b
+  the first number a -> int
+  the second number b -> int
   """
   while a!=0:
     newa = b%a
